@@ -1,5 +1,7 @@
 
+
 @include('partials.head')
+</head>
  <body class="c-app">
     @include('partials.sidebar')
 
@@ -83,6 +85,9 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.0/perfect-scrollbar.min.js"></script>
  <script src="https://unpkg.com/@popperjs/core@2"></script>
  <script src="https://unpkg.com/@coreui/coreui/dist/js/coreui.min.js"></script>
+ @livewireScripts
+ <script src="https://cdn.jsdelivr.net/gh/livewire/sortable@v0.x.x/dist/livewire-sortable.js"></script>
+
  </body>
 </html>
 {{-- <!doctype html>
